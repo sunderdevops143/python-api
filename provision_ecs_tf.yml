@@ -1,0 +1,11 @@
+---
+- name: Execute Bash script using the shell module
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Init Terraform
+      command: terraform init
+
+    - name: Execute Terraform
+      command: terraform apply -auto-approve
