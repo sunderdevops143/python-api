@@ -35,7 +35,7 @@ This repository contains the code and instructions for deploying a Flask applica
 1. Install Ansible on your local machine.
 2. Navigate to the project directory.
 3. Modify the `inventory` file to specify the target hosts as aws with creditionals.
-4. check the `playbook.yml` file to define the deployment tasks to run 2 yamls file which builds docker image and pushes the image to ECR and build ECS cluster on AWS.
+4. check the `playbook.yml` files to define the deployment tasks to run 2 yamls file which builds docker image and pushes the image to ECR and build ECS cluster on AWS.
 5. Run the Ansible playbook: `ansible-playbook -i inventory playbook.yml` files one after the other.
 
 ## Deployment
